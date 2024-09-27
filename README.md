@@ -1,3 +1,1 @@
-# KredittValg 
-
-An affiliate website for gettin loans online
+# Boilerplate React Typescript Project 
