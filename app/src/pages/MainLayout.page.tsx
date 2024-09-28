@@ -1,14 +1,14 @@
-import Container from '@mui/material/Container';
-import { FooterContainer } from 'Containers/Footer.container';
+import Stack from '@mui/material/Stack';
 import { HeaderContainer } from 'Containers/Header.container';
 import { Outlet } from 'react-router-dom';
+import { Footer } from 'Views/index';
 
 export const MainLayoutPage = () => {
   return (
-    <Container>
+    <Stack>
       <HeaderContainer />
       <Outlet />
-      <FooterContainer />
-    </Container>
+      <Footer />
+    </Stack>
   );
 };

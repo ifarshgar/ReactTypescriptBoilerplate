@@ -21,7 +21,7 @@ export const ErrorPage = () => {
   };
 
   return (
-    <Stack id="error-page" alignItems='center' mt={20}>
+    <Stack id="error-page" alignItems="center" mt={20}>
       <Typography variant="h1" fontSize={50}>
         Oops!
       </Typography>

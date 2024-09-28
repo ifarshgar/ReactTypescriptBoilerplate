@@ -1,3 +1,5 @@
+import { Header } from "Views/index";
+
 export const HeaderContainer = () => {
-  return <h1>Header</h1>;
+  return <Header />;
 };

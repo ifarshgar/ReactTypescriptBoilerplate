@@ -1,7 +1,7 @@
 :root {
   font-family: 'Inter', system-ui, sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 
   color-scheme: light;
@@ -10,6 +10,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-main-blue: #00cec9;
+  --color-white: #ffffff;
+  --color-grey: #f2f2f2;
 }
 
 body {
@@ -22,4 +26,13 @@ body {
   font-optical-sizing: var(font-optical-sizing);
   font-weight: var(font-weight);
   font-style: var(font-style);
+
+  background-color: var(--color-white);
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
 }

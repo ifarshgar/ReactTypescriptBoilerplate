@@ -1,0 +1,15 @@
+.header {
+    background-color: var(--color-main-blue);
+}
+
+.header-logo {
+    background-color: var(--color-white);
+    height: 25px;
+    margin-right: 50px;
+    border-radius: 6px;
+    padding: 5px 7px;
+}
+
+.header-logo-rest {
+    padding: 5px 7px;
+}

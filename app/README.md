@@ -3,6 +3,6 @@
 ## Quick Start
 
 ```ssh
-yarn 
+yarn
 yarn start
 ```
